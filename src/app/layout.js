@@ -1,6 +1,7 @@
 import { Inter } from 'next/font/google'
 import './globals.css'
 import Footer from '@/shared/Footer'
+import Cursor from '@/components/Cursor'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,6 +15,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <main className='  max-w-5xl mx-auto'>
+          <Cursor />
           {children}
           <Footer />
        </main>
