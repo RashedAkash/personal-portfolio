@@ -3,21 +3,23 @@
 import Image from "next/image";
 import { MagnifyingGlass } from "phosphor-react";
 import { Navbar, Button } from "keep-react";
-import me from '../../public/me-removebg-preview.png'
+import me from '../../public/name.png'
 import Link from "next/link";
+import Headroom from "react-headroom";
 
 export const NavbarComponent = () => {
   return (
-    <Navbar fluid={true} className=" ">
-      <Navbar.Container className="flex  items-center justify-between">
+    <Headroom>
+  <Navbar fluid={true} className=" bg-[#030014] z-50 shadow-2xl text-white">
+      <Navbar.Container className="flex  md:py-5 items-center justify-between">
         <Navbar.Container className="flex items-center">
           <Navbar.Brand>
-            <h1 className=" font-bold text-xl text-pink-600">Rashed</h1>
+            <Image src={me} alt="img" width={70} height={70} />
           </Navbar.Brand>
           <Navbar.Divider></Navbar.Divider>
           <Navbar.Container
             tag="ul"
-            className="lg:flex hidden items-center justify-between gap-8"
+            className="lg:flex hidden  items-center justify-between gap-8"
           >
             <Link href='/'>Home</Link>
             <Link href='/about'>About</Link>
@@ -43,5 +45,7 @@ export const NavbarComponent = () => {
         </Navbar.Container>
       </Navbar.Container>
     </Navbar>
+</Headroom>
+    
   );
 }

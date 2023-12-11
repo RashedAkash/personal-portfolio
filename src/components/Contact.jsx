@@ -4,7 +4,7 @@ import Title from './Title';
 const Contact = () => {
   return (
     <div>
-      <div className=' flex justify-center mt-10'>
+      <div className=' text-center mt-10'>
         <Title title='Contact me'/>
       </div>
       <div>
@@ -46,7 +46,7 @@ const Contact = () => {
                 </div>
 
                 <div className="mt-6 w-80 md:mt-8">
-                    <h3 className="text-pink-600 dark:text-pink-700 text-xl ">Follow us</h3>
+                    <h3 className="text-pink-600 dark:text-pink-700 text-xl ">Follow me</h3>
 
                     <div className="flex mt-4 -mx-1.5 ">
                         <a className="mx-1.5 dark:hover:text-pink-700 text-gray-400 transition-colors duration-300 transform hover:text-blue-500" href="https://github.com/RashedAkash">
