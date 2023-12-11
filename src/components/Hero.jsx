@@ -1,3 +1,4 @@
+import HeroContent from "./HeroContent";
 
 
 const Hero = () => {
@@ -11,7 +12,9 @@ const Hero = () => {
       >
         <source src="/blackhole.webm" type="video/webm" />
       </video>
-      
+      <div className=" absolute top-0 left-0 z-20 w-full h-full">
+        <HeroContent />
+      </div>
     </div>
   );
 };
