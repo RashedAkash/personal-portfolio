@@ -18,6 +18,7 @@ export default function RootLayout({ children }) {
         <main className='  max-w-5xl mx-auto'>
           <Cursor />
           <NavbarComponent />
+          
           {children}
           <Footer />
        </main>

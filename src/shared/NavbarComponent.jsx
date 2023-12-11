@@ -9,7 +9,7 @@ import Link from "next/link";
 export const NavbarComponent = () => {
   return (
     <Navbar fluid={true} className=" ">
-      <Navbar.Container className="flex py-5 items-center justify-between">
+      <Navbar.Container className="flex  items-center justify-between">
         <Navbar.Container className="flex items-center">
           <Navbar.Brand>
             <h1 className=" font-bold text-xl text-pink-600">Rashed</h1>

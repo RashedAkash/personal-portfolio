@@ -3,7 +3,7 @@ import HeroContent from "./HeroContent";
 
 const Hero = () => {
   return (
-    <div className="relative flex flex-col h-full w-full" id="about-me">
+    <div className="md:relative flex flex-col h-full w-full" id="about-me">
       <video
         autoPlay
         muted
@@ -12,7 +12,7 @@ const Hero = () => {
       >
         <source src="/blackhole.webm" type="video/webm" />
       </video>
-      <div className=" absolute top-0 left-0 z-20 w-full h-full">
+      <div className=" md:absolute top-0 left-0 z-20 w-full h-full">
         <HeroContent />
       </div>
     </div>
