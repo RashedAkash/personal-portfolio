@@ -16,7 +16,7 @@ const Cursor = () => {
   return (
     <motion.div
       animate={{x:position.x, y:position.y}}
-      className=' z-20 w-[50px] h-[50px] rounded-full border border-cyan-500'>
+      className=' z-20 w-[40px] h-[40px] rounded-full border border-cyan-500'>
       
     </motion.div>
   );
