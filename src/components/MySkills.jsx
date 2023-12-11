@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import img1 from '../../public/js.png'
 import img2 from '../../public/react.png'
-import img3 from '../../public/nextpng.png'
+import img3 from '../../public/next.png'
 import img4 from '../../public/node-js.png'
 import img5 from '../../public/mongodb.png'
 import img6 from '../../public/express.png'
@@ -33,7 +33,7 @@ const MySkills = () => {
   return (
     <div>
        <div>
-        <motion.h2 style={{ scaleX: scrollYProgress }}  className=" font-bold inline-block text-5xl pb-3 mb-10 border-b-4 border-cyan-500 text-pink-700">MY Skills</motion.h2>
+        <motion.h2 style={{ scaleX: scrollYProgress }}  className=" font-bold  text-5xl pb-3 mb-16 border-b-4 border-cyan-500 text-pink-700 flex justify-center">MY Skills</motion.h2>
         <Slider {...settings}>
           <div>
             <Image
@@ -56,7 +56,7 @@ const MySkills = () => {
               src={img3}
               alt="img"
               width={80}
-              height={80}
+              height={150}
             />
           </div>
           <div>
