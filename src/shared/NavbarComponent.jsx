@@ -11,7 +11,7 @@ import Headroom from "react-headroom";
 export const NavbarComponent = () => {
   return (
     <Headroom>
-      <Navbar fluid={true} className=" z-50">
+      {/* <Navbar fluid={true} className=" z-50">
       <Navbar.Container className="flex items-center justify-between">
         <Navbar.Container className="flex items-center">
           <Navbar.Brand>
@@ -64,7 +64,11 @@ export const NavbarComponent = () => {
           <Navbar.Toggle />
         </Navbar.Container>
       </Navbar.Container>
-    </Navbar>
+    </Navbar> */}
+     
+
+
+
     </Headroom>
   );
 }
