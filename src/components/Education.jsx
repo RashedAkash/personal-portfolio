@@ -4,21 +4,34 @@ import Title from './Title';
 const Education = () => {
   return (
     <div>
-      <Title title='Education' />
-      <header>
-   
+      <div className=' text-center mt-10'>
+         <Title title='Education' />
+     </div>
+      <header className="">
+    
 
-    <div class="w-full bg-center bg-cover h-[38rem]"  style={{
-        backgroundImage: `url('/edu.jpeg')`,
-        backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat',
-        
-         
-      }}>
-        <div class="flex items-center justify-center w-full h-full bg-gray-900/40">
-            <div class="text-center">
-                <h1 class="text-3xl font-semibold text-white lg:text-4xl">Build your new <span class="text-blue-400">Saas</span> Project</h1>
-                <button class="w-full px-5 py-2 mt-4 text-sm font-medium text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md lg:w-auto hover:bg-blue-500 focus:outline-none focus:bg-blue-500">Start project</button>
+    <div className="container px-6 py-16 mx-auto">
+        <div className="items-center lg:flex">
+            <div className="w-full lg:w-1/2">
+                <div className="lg:max-w-lg">
+                    <h1 className="text-2xl font-medium text-gray-800 dark:text-white lg:text-4xl leading-10">BACHALOR DIGREE
+   <br/> JAN 1018 - MAY 2022 <span className="text-pink-700 ">Satkhira Govt. College</span></h1>
+                    
+                    
+                    
+                    
+                </div>
+            </div>
+
+            <div className="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
+                 <div className="lg:max-w-lg">
+                    <h1 className="text-3xl font-semibold text-gray-800 dark:text-white lg:text-4xl leading-10">Web Developer
+   <br/> July 2023 - Dec 2023 <span className="text-pink-700 ">Programming Hero</span></h1>
+                    
+                   
+                    
+                    
+                </div>
             </div>
         </div>
     </div>
