@@ -2,6 +2,7 @@ import Image from 'next/image';
 import skill from '../../public/Untitled design (1).png'
 import Link from 'next/link';
 
+
 const HeroContent = () => {
   return (
     <div>
@@ -11,7 +12,7 @@ const HeroContent = () => {
     <div className="container px-6 py-16 mx-auto">
         <div className="items-center lg:flex">
             <div className="w-full lg:w-1/2">
-                <div className="lg:max-w-lg space-y-3">
+                <div  className="lg:max-w-lg space-y-3">
                     <h1 className="text-3xl font-semibold text-gray-800 dark:text-white lg:text-4xl">JavaScript Developer
  <br />My name is <span className="text-pink-700 ">Rashed Hossain</span></h1>
                     

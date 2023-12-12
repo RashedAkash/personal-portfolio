@@ -15,10 +15,10 @@ import img10 from '../../public/mui.png'
 import img11 from '../../public/Firebase.png'
 import img12 from '../../public/figma.png'
 import Image from "next/image";
-import { motion, useScroll } from "framer-motion"
+
 
 const MySkills = () => {
-  const { scrollYProgress } = useScroll();
+ 
   const settings = {
       dots: false,
       arrows: false,
@@ -33,7 +33,7 @@ const MySkills = () => {
   return (
     <div>
        <div>
-        <motion.h2 style={{ scaleX: scrollYProgress }}  className=" font-bold  text-5xl pb-3 mb-16 border-b-4 border-cyan-500 text-pink-700 flex justify-center">MY Skills</motion.h2>
+        <h2   className=" font-bold  text-5xl pb-3 mb-16 border-b-4 border-cyan-500 text-pink-700 flex justify-center">MY Skills</h2>
         <Slider {...settings}>
           <div>
             <Image

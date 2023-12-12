@@ -2,6 +2,7 @@ import img1 from '../../public/fitnesspng.png'
 import img2 from '../../public/eventlab.png'
 import img3 from '../../public/fruit.png'
 import img4 from '../../public/flowerpng.png'
+import Title from './Title';
 
 const Portfolio = () => {
   return (
@@ -11,12 +12,15 @@ const Portfolio = () => {
       </div>
       <section className="">
     <div className="container px-6 py-10 mx-auto">
-        <h1 className="text-2xl font-semibold text-center text-gray-800 capitalize xl:text-3xl dark:text-white">Portfolio
-        </h1>
+          <div className=' text-center'>
+            <div className=' text-center'>
+               <Title title='Portfolio' />
+           </div>
 
         <p className="mt-4 text-center text-gray-500 dark:text-gray-300">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum quam voluptatibus
         </p>
+        </div>
 
 
         <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 ">
