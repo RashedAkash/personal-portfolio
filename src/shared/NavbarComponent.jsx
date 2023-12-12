@@ -2,14 +2,16 @@
 
 "use client";
 import Image from "next/image";
-import { MagnifyingGlass } from "phosphor-react";
+
 import { Navbar, Button } from "keep-react";
 import Link from "next/link";
 import img from '../../public/name.png'
+import Headroom from "react-headroom";
 
 export const NavbarComponent = () => {
   return (
-    <Navbar fluid={true}>
+    <Headroom>
+      <Navbar fluid={true} className=" z-50">
       <Navbar.Container className="flex items-center justify-between">
         <Navbar.Container className="flex items-center">
           <Navbar.Brand>
@@ -63,6 +65,7 @@ export const NavbarComponent = () => {
         </Navbar.Container>
       </Navbar.Container>
     </Navbar>
+    </Headroom>
   );
 }
 
