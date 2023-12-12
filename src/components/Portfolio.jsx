@@ -22,7 +22,8 @@ const Portfolio = () => {
         <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 ">
            
 
-            <div className="overflow-hidden bg-cover rounded-xl cursor-pointer h-96 group"
+            <a href="https://fitness-b1aa9.web.app/">
+               <div className="overflow-hidden bg-cover rounded-xl cursor-pointer h-96 group"
                  style={{
         backgroundImage: `url('/fitnesspng.png')`,
         backgroundSize: 'cover',
@@ -36,8 +37,10 @@ const Portfolio = () => {
                     <p className="mt-2 font-bold text-xl tracking-wider text-pink-700 uppercase ">React, node, express, firebase, tailwind</p>
                 </div>
             </div>
+           </a>
 
-            <div className="overflow-hidden bg-cover rounded-xl cursor-pointer h-96 group"
+            <a href="https://event-lab-551ad.web.app/">
+              <div className="overflow-hidden bg-cover rounded-xl cursor-pointer h-96 group"
                  style={{
         backgroundImage: `url('/eventlab.png')`,
         backgroundSize: 'cover',
@@ -51,7 +54,10 @@ const Portfolio = () => {
                     <p className="mt-2 font-bold text-xl tracking-wider text-pink-700 uppercase ">React, Firebase</p>
                 </div>
             </div>
-            <div className="overflow-hidden bg-cover rounded-xl cursor-pointer h-96 group"
+            </a>
+
+            <a href="https://rashedakash.github.io/fruit-brust/">
+              <div className="overflow-hidden bg-cover rounded-xl cursor-pointer h-96 group"
                  style={{
         backgroundImage: `url('/fruit.png')`,
         backgroundSize: 'cover',
@@ -65,7 +71,9 @@ const Portfolio = () => {
                     <p className="mt-2 font-bold text-xl tracking-wider text-pink-700 uppercase ">Html, css, tailwind</p>
                 </div>
             </div>
-            <div className="overflow-hidden bg-cover rounded-xl cursor-pointer h-96 group"
+            </a>
+            <a href="https://rashedakash.github.io/flower-shop/">
+              <div className="overflow-hidden bg-cover rounded-xl cursor-pointer h-96 group"
                  style={{
         backgroundImage: `url('/flowerpng.png')`,
         backgroundSize: 'cover',
@@ -79,6 +87,7 @@ const Portfolio = () => {
                     <p className="mt-2 font-bold text-xl tracking-wider text-pink-700 uppercase ">Html, css , tailwind </p>
                 </div>
             </div>
+            </a>
         </div>
     </div>
 </section>
